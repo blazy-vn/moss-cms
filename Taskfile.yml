@@ -11,7 +11,7 @@ tasks:
 
   admin:
     cmds:
-      - cd ./admin && npm run dev
+      - cd ./admin && pnpm run dev
 
 
   #############
@@ -20,11 +20,11 @@ tasks:
 
   init-admin:
     cmds:
-      - cd ./admin && npm install
+      - cd ./admin && pnpm install
 
   init-themes:
     cmds:
-      - cd ./theme/germ && npm install
+      - cd ./theme/germ && pnpm install
 
   
   ### 开发默认模板时，更新模板到资源文件
@@ -49,7 +49,7 @@ tasks:
 
   build-admin:
     cmds:
-      - cd ./admin && npm run build
+      - cd ./admin && pnpm run build
 
   build-main:
     deps: [
