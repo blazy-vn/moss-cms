@@ -27,7 +27,7 @@ tasks:
       - cd ./theme/germ && pnpm install
 
   
-  ### 开发默认模板时，更新模板到资源文件
+  ### When developing the default template, update the template to the resource file
   init-resources-themes:
     cmds:
       - cd ./theme/germ && npx tailwindcss -i ./css/style.css -o ../../main/tmp/themes/germ/public/style.css --minify

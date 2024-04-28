@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 )
 
-// Extends 额外扩展值对象,用在文章详情扩展
+// Extends additional extension value object, used for article details expansion
 type Extends []ExtendsItem
 
 func (ext Extends) Get(key string) any {
